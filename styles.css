@@ -1,0 +1,22 @@
+#briefDescription {
+    padding-left: 5%;
+}
+
+#briefDescription h2 {
+}
+
+#lifeStream {
+    padding: 0;
+}
+
+#uboStream {
+    background: #ff5c50;
+    width: 100%;
+    height: 100px;
+}
+
+#appJamStream {
+    background: #46daff;
+    width: 100%;
+    height: 100px;
+}
