@@ -15,6 +15,8 @@
 #aboutText {
     max-width:1200px;
     margin: auto;
+    color: #fff;
+    background: rgba(0, 61, 103, 0.75);
 }
 
 html {
@@ -29,6 +31,18 @@ body {
     background: transparent;
 }
 
+
+#aboutIcons {
+    max-width: 320px;
+    margin: auto;
+    /*background: rgba(0, 61, 103, 0.75);*/
+    color: #ffffff;
+    margin-top: 10%;
+}
+
+#aboutIcons i {
+    text-align: center}
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -45,16 +59,36 @@ body {
     #briefDescription {
         padding-top: 10%;
     }
-}
+    #aboutText p {
+        font-size: 16px;
+    }
+    #aboutText h4 {
+        font-size: 24px;
+    }
+    #aboutIcons {
+
+    }
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
+@media (min-width : 768px) and (max-width: 992px) {
+    #aboutText p {
+        font-size: 18px;
+    }
+    #aboutText h4 {
+        font-size: 28px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    #aboutText p {
+        font-size: 22px;
+    }
+    #aboutText h4 {
+        font-size: 36px;
+    }
+
 
 }
 
