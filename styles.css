@@ -1,22 +1,13 @@
 #briefDescription {
     padding-left: 5%;
+    color: #f0d2b3;
+
 }
 
 #briefDescription h2 {
 }
 
-#lifeStream {
-    padding: 0;
-}
-
-#uboStream {
-    background: #ff5c50;
-    width: 100%;
-    height: 100px;
-}
-
 #appJamStream {
-    background: #46daff;
     width: 100%;
     height: 100px;
 }
@@ -25,3 +16,47 @@
     max-width:1200px;
     margin: auto;
 }
+
+html {
+    background: url(assets/starsBackground.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: transparent;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    #briefDescription h2 {
+        font-size: 50px;
+    }
+    #briefDescription {
+        padding-top: 10%;
+    }
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
