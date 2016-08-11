@@ -19,12 +19,19 @@
     background: rgba(0, 61, 103, 0.75);
 }
 
+
+
 html {
-    background: url(assets/starsBackground.png) no-repeat center center fixed;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.navbar.navbar-default {
+    background-color: #333;
+    font-weight: bold;
 }
 
 body {
