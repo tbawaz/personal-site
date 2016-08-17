@@ -32,6 +32,10 @@
     }
 }
 
+#customNav a:hover{
+    color: #dff0d8;
+}
+
 @media (min-width: 768px) {
     .card-columns {
         column-count: 3;
@@ -194,3 +198,6 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+}
+
+
