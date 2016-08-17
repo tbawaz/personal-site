@@ -47,10 +47,6 @@
     }
 }
 
-.main-content {
-    text-align: center;
-}
-
 .card {
     position: relative;
     display: inline-block;
@@ -138,15 +134,15 @@ body {
 
 #aboutIcons {
     max-width: 320px;
-    margin: auto;
     /*background: rgba(0, 61, 103, 0.75);*/
     color: #ffffff;
-    margin-top: 10%;
 }
 
 #aboutIcons i {
-    text-align: center}
-}
+    font-size: 1.5rem}
+
+
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -187,7 +183,7 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     #aboutText p {
-        font-size: 22px;
+        font-size: 1rem;
     }
     #aboutText h4 {
         font-size: 36px;
