@@ -17,9 +17,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+    <!----------------------- GOOGLE ANALYTICS --------------------------->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-83600349-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
 </head>
 <body>
-<nav class="navbar navbar-default">
+<!----------------------- NAVBAR --------------------------->
+<nav class="navbar navbar-default navbar-custom" id="customNav">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -35,11 +48,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <!--<li><a href="work.html">Work</a></li>-->
-                <li class="active"><a href="about.html">About <span class="sr-only">(current)</span></a></li>
+                <li><a href="index.html">Home </a></li>
+                <!--<li><a href="process.html">Process</a></li>-->
+                <!--<li><a href="newsletter.html">Newsletter</a></li>-->
+                <!--<li><a href="books.html">Books</a></li>-->
                 <li><a href="https://pursuitofprocess.com/" target="_blank">Blog</a></li>
-                <li><a href="assets/ProjectResume.pdf">Resume</a></li>
+                <li><a href="assets/ProductResume.pdf">Resume</a></li>
+                <li class="active"><a href="about.html">About<span class="sr-only">(current)</span></a></li>
+                <!--<li><a href="adventures.html">Adventures</a></li>-->
+                <!--<li><a href="health.html">Health</a></li>-->
+
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -48,24 +66,36 @@
 <div class="container">
     <div role="main" class="container main-content">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <!--<div class="author-image-large">-->
                     <!--<img src=""class="author-image-large">-->
                 <!--</div>-->
-                <h1>Tristan Biles</h1>
+                <img src="assets/images/linkedInHeadshot.jpg" class="img-circle">
+
                 <div class="author-byline">
                     <a href="https://twitter.com/TristanDBiles"></a>
                 </div>
 
             </div>
+
             <div class="col-md-4">
-                <div id="aboutIcons" class="row">
+                <h1>Tristan Biles</h1>
+                <p>Consultant at Capgemini.</p>
+                <p>Technical Project Manager at Cisco.</p>
+                <p>Process Nerd.</p>
+
+                <div id="aboutIcons">
                     <a href="https://www.linkedin.com/in/tristanbiles"><i class="fa fa-linkedin col-xs-3 fa-3x"></i></a>
                     <a href="mailto:tristan.d.biles@gmail.com"><i class="fa fa-envelope col-xs-3 fa-3x"></i></a>
                     <a href="https://twitter.com/TristanDBiles"> <i class="fa fa-twitter col-xs-3 fa-3x"></i></a>
                     <a href="https://pursuitofprocess.com/"><i class="fa fa-rss col-xs-3 fa-3x"></i></a>
                 </div>
             </div>
+
+
+            </div>
+
+
 
         </div>
     </div>
@@ -75,7 +105,7 @@
 
 <div id="aboutText" class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-10">
             <p>
                 <strong>Tristan is a Technical Project Manager at Cisco and Ergonomics Nerd.</strong>
                 <br>
@@ -96,7 +126,10 @@
     </div>
 
 
+
+
 </div>
+
 
 
 </body>

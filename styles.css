@@ -32,8 +32,13 @@
     }
 }
 
+
 #customNav a:hover{
     color: #dff0d8;
+}
+
+.cardContainer {
+    margin-top: 15px;
 }
 
 @media (min-width: 768px) {
@@ -47,9 +52,17 @@
     }
 }
 
+#aboutIcons a i {
+    padding-left: 0px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
 .card {
     position: relative;
-    display: inline-block;
+    display: block;
     margin-bottom: .75rem;
     background-color: #333;
     border-radius: .25rem;
@@ -62,11 +75,20 @@
     color: #fff;
 }
 
+
+.card-block {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
 .card-block::after {
     content: "";
     display: table;
     clear: both;
+
 }
+
+
 
 img {
     max-width: 100%
