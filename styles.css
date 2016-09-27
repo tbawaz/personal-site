@@ -15,8 +15,8 @@
 #aboutText {
     max-width:1200px;
     margin: auto;
-    color: #fff;
-    background: rgba(0, 61, 103, 0.75);
+    color: #000000;
+    padding-top: 3%;
 }
 
 .navbar-custom {
@@ -25,6 +25,26 @@
     font-family: "tablet-gothic","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navbar-custom .avatar-container {
+    position: absolute;
+    left: 50%;
+    margin-top: 9px;
+    width: 75px;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.navbar-custom .avatar-container .avatar-img-border {
+    display: inline-block;
+    margin-left: -50%;
+    width: 100%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,0.8);
+    box-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
 
 @media (min-width: 992px) {
     .card-columns {
@@ -41,6 +61,25 @@
     margin-top: 15px;
 }
 
+.navbar-default .navbar-nav > .active{
+    color: #000;
+    background: #d65c14;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background: #d65c14;
+}
+
+.navbar-nav a {
+    color:#ccc !important;
+}
+
+.navbar-header a {
+    color:#eee !important;
+}
+
 @media (min-width: 768px) {
     .card-columns {
         column-count: 3;
@@ -54,6 +93,7 @@
 
 #aboutIcons a i {
     padding-left: 0px;
+
 }
 
 .img-circle {
@@ -71,10 +111,21 @@
 }
 
 
-.card h3, .card h4 {
+.card h3 {
     color: #fff;
 }
 
+.card h4 {
+    color: #9d9d9d;
+}
+
+a:hover {
+    color: #d65c14 !important;
+}
+
+a:hover h4 {
+    text-underline: none;
+}
 
 .card-block {
     margin-left: 10px;
@@ -158,6 +209,7 @@ body {
     max-width: 320px;
     /*background: rgba(0, 61, 103, 0.75);*/
     color: #ffffff;
+    padding-top: 15%;
 }
 
 #aboutIcons i {
@@ -188,6 +240,7 @@ body {
         font-size: 24px;
     }
     #aboutIcons {
+        padding-top:5%
 
     }
 }
@@ -205,7 +258,7 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     #aboutText p {
-        font-size: 1rem;
+        font-size: 20px;
     }
     #aboutText h4 {
         font-size: 36px;
